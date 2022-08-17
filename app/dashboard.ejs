@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="nav flex-column bg-light justify-content-between">
+    <div>
+      <h1 class="mb-4"><a href="#"><img class="img-fluid" src="./assets/images/logo-ANSWER.svg" alt="logo-ANSWER"></a></h1>
+      <a class="nav-link  active mb-3 px-0" aria-current="page" href="#"> 
+        <span class="mr-2 align-middle material-icons ">
+          assessment
+        </span>
+          Dashboard
+      </a>
+      <a class="nav-link active mb-3 px-0" aria-current="page" href="#"> 
+        <span class="mr-2 align-middle material-icons">
+          question_answer
+        </span>
+        Question
+      </a>
+      <a class="nav-link active mb-3 px-0" aria-current="page" href="#"> 
+        <span class="mr-2 align-middle material-icons">
+          assignment
+        </span>
+        Assignment
+      </a>
+      <a class="nav-link active mb-3 px-0" aria-current="page" href="#"> 
+        <span class="mr-2 align-middle material-icons">
+          video_library
+        </span>
+        Course
+      </a>
+      <a class="nav-link active mb-3 px-0" aria-current="page" href="#"> 
+        <span class="mr-2 align-middle material-icons">
+          group
+        </span>
+        Admin
+      </a>
+      <a class="nav-link active px-0" aria-current="page" href="#"> 
+        <span class="mr-2 align-middle material-icons">
+          settings
+        </span>
+        Settings
+      </a>
+    </div>
+    <div class="d-flex align-items-center">
+      <img class="rounded-circle me-3 avatar " src="./assets/images/andychen.jpeg" alt="AndyChen photo">
+      <ul class=" px-0 mb-0">
+        <li class="list-unstyled "><p class=" my-0">Andy Chen</p></li>
+        <li class="list-unstyled "><p class=" my-0">andy0401@mail.com</p></li>
+      </ul>
+    </div>
+  </nav>  
+  
+
+  <%- contents %>
+
+  
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>

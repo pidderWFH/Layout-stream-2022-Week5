@@ -1,0 +1,27 @@
+.admin-container{
+    margin-left: 296px;
+    padding: 32px;
+  }
+  .admin-header{
+    margin-bottom: 32px;
+  }
+  .avatar{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .pagination{
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+  .page-link{
+    color: black;
+    &:hover{
+      color: white;
+      background-color: #198754;
+    }
+    &.active{
+      color: #fff;
+      background-color: #198754;
+    }
+  }
